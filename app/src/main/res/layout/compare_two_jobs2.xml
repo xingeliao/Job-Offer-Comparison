@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#E8E3E3"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:text="Compare Job Offers"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/textView3"
+                    android:layout_width="143dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00FFFFFF"
+                    android:text="selected job A"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/textView4"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00FFFFFF"
+                    android:text="selected job B"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobTitleA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobTitleB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="Company"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobCompanyA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobCompanyB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobLocationA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobLocationB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="AYS"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobAYSA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobAYSB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="AYB"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobAYBA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobAYBB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="LT"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobLTA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobLTB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="CSO"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobCSOA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobCSOB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="HBP"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobHBPA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobHBPB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="WF"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idJobWFA"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/idJobWFB"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEHOLDER"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:onClick="handleClickBack"
+            android:text="BACK" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

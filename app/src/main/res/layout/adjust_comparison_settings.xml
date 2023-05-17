@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#E8E3E3"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:text="Adjust Comparison Settings"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="AYS weight"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weightAYS"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="AYB weight"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weightAYB"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="LT weight"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weightLT"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="CSO weight"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weightCSO"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HBP weight"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weightHBP"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="WF weight"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weightWF"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonSavedACS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:onClick="handleClickSave"
+                    android:text="save" />
+
+                <Button
+                    android:id="@+id/buttonCancelACS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="1"
+                    android:onClick="handleClickCancel"
+                    android:text="cancel" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
